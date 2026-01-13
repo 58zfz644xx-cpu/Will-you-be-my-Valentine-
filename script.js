@@ -59,10 +59,10 @@ const messages = [
     "Pleaaaaaaaaase",
     "Pookie please...",
     "You hate me",
-    "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
+    "If you say no, I'll be really sad...",
+    "Baby please 🥺",
+    "Darling come on ☹️",
+    "Ok fine, I'll stop asking...",
     "Just kidding, say yes please! ❤️"
 ];
 
