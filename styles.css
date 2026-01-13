@@ -6,6 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #4ad882;
+    background-image: url('background.jpeg')
     font-family: "Dancing Script", cursive;
     flex-direction: column;
   }
