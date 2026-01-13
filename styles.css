@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #caffd4;
-    font-family: 'Arial', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     flex-direction: column;
   }
   
