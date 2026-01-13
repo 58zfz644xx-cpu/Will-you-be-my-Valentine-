@@ -1,7 +1,7 @@
 @import url('fonts.googleapis.com');
 body {
     
-  background-image: url("images/portBackground.jpg");
+  background-image: url("images/background.jpeg");
   background-size: cover; /* Optional: adjust size as needed */
   background-repeat: no-repeat; /* Optional: prevent image tiling */
     background-image: url("../images/background.jpeg");
