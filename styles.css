@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #caffd4;
+    background-color: #4ad882;
     font-family: "Dancing Script", cursive;
     flex-direction: column;
   }
@@ -15,7 +15,7 @@ body {
   }
   
   h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
     color:black;
   }
   
