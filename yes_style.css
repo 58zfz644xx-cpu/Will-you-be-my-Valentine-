@@ -1,9 +1,8 @@
 @import url('fonts.googleapis.com');
 body {
-    
+  background-image: url("../webimages/background.jpeg");  
   background-size: cover; /* Optional: adjust size as needed */
   background-repeat: no-repeat; /* Optional: prevent image tiling */
-    background-image: url("../images/background.jpeg");
 
     display: flex;
     justify-content: center;
