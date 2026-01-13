@@ -54,11 +54,11 @@
 })();
 */
 const messages = [
-    "Are you sure?",
-    "Really sure??",
-    "Are you positive?",
+    "Pookie why?",
+    "Minh what the helly?",
+    "Pleaaaaaaaaase",
     "Pookie please...",
-    "Just think about it!",
+    "You hate me",
     "If you say no, I will be really sad...",
     "I will be very sad...",
     "I will be very very very sad...",
