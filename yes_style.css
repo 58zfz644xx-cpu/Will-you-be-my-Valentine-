@@ -1,8 +1,16 @@
 @import url('fonts.googleapis.com');
 body {
-  background-image: url("../webimages/background.jpeg");  
-  background-size: cover; /* Optional: adjust size as needed */
-  background-repeat: no-repeat; /* Optional: prevent image tiling */
+ .background-container {
+    /* Reference the image file path */
+    background-image: url('webimages/background.jpeg'); 
+    
+    /* Ensure the container fills the viewport */
+    height: 100vh; 
+    
+    /* Center the image and scale it to cover the entire container */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     justify-content: center;
