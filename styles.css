@@ -37,7 +37,7 @@ body::before {
   }
   
   h1 {
-    font-size: 3.5em;
+    font-size: 6.5em;
     color:#000;
     margin-bottom: 8px;
   }
@@ -47,16 +47,17 @@ body::before {
   }
   
   .yes-button {
-    font-size: 2.4em;
+    font-size: 2.8em;
     padding: 18px 44px;
     margin-right: 14px;
-    background-color: #d978dc;
+    background-color: #e46daa;
     color: white;
     border: none;
     border-radius: 999px;
     cursor: pointer;
     position: relative;
     z-index: 2;
+    min-width: 180px;
     box-shadow: 0 18px 36px rgba(0,0,0,0.36), 0 8px 28px rgba(217,120,220,0.22);
     -webkit-filter: drop-shadow(0 14px 28px rgba(0,0,0,0.28));
     filter: drop-shadow(0 14px 28px rgba(0,0,0,0.28));
@@ -65,15 +66,16 @@ body::before {
   }
   
   .no-button {
-    font-size: 2.4em;
+    font-size: 2.8em;
     padding: 18px 44px;
-    background-color: #6ebaab;
+    background-color: #9d435d;
     color: white;
     border: none;
     border-radius: 999px;
     cursor: pointer;
     position: relative;
     z-index: 2;
+    min-width: 180px;
     box-shadow: 0 18px 36px rgba(0,0,0,0.36), 0 8px 28px rgba(106,186,171,0.22);
     -webkit-filter: drop-shadow(0 14px 28px rgba(0,0,0,0.28));
     filter: drop-shadow(0 14px 28px rgba(0,0,0,0.28));
@@ -103,5 +105,5 @@ body::before {
     max-width: 100%;
     height: auto;
     border-radius: 4px;
-    margin-top: -12px;
+    margin-top: -50px;
   }

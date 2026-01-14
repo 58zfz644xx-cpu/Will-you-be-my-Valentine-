@@ -11,11 +11,46 @@
     <link rel="stylesheet" href="yes_style.css">
 </head>
 <body>
+    <!-- Click Me Button -->
+    <button id="clickMeBtn" class="click-me-btn">💌 Click me!</button>
+
+    <!-- Popup Modal -->
+    <div id="popupModal" class="popup-modal">
+        <div class="popup-content">
+            <span class="popup-close">&times;</span>
+            <h2 class="popup-title">I love you </h2>
+            <img src="2392AF2B-E156-40D9-8F20-0A7C1946D86A 2.JPG" alt="us together" class="popup-image">
+            <p class="popup-text">You said yes! I'm so happy! ❤️</p>
+        </div>
+    </div>
+
     <div class="container">
         <h1 class="header_text">Good boy!</h1>
         <div class="gif_container">
-            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDdhNmd0NXFhczk5dnNndnZkbHZyODZoaDdsaGlqaWNoZW5oOXR0bSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/fvN5KrNcKKUyX7hNIA/giphy.gif">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzYwa3J4YXBjZXJjbnY5aHNlOXo3aGNrejZ0ZDBsbW5ucHNkMzdtdSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/euW6JDwrMn0BqyNC8t/giphy.gif" alt="cute gif 1">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDdhNmd0NXFhczk5dnNndnZkbHZyODZoaDdsaGlqaWNoZW5oOXR0bSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/fvN5KrNcKKUyX7hNIA/giphy.gif" alt="cute gif 2">
+            <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z2d0Z3FkYWN6cWRreTB6MjNuNmtsZ2g0eDNweGZrejQwa2xzbHlwcyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/8KEhrMw2rOKu29U0PO/giphy.gif" alt="cute gif 3">
         </div>
     </div>
+
+    <script>
+        // Show popup when button is clicked
+        document.getElementById('clickMeBtn').addEventListener('click', function() {
+            document.getElementById('popupModal').style.display = 'flex';
+        });
+
+        // Close popup when clicking X
+        document.querySelector('.popup-close').addEventListener('click', function() {
+            document.getElementById('popupModal').style.display = 'none';
+        });
+
+        // Close popup when clicking outside
+        window.addEventListener('click', function(event) {
+            const modal = document.getElementById('popupModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
