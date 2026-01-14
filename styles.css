@@ -1,11 +1,17 @@
-@import url('fonts.googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+html {
+  height: 100%;
+  background: url('background.jpeg') center/cover no-repeat fixed;
+  background-color: #ffffff;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-  background-image: url(background.jpeg);
     font-family: "Dancing Script", cursive;
     flex-direction: column;
   }
