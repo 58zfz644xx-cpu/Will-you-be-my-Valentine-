@@ -102,6 +102,6 @@ body::before {
   .gif_container img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
-    margin-top: 4px;
+    border-radius: 4px;
+    margin-top: -12px;
   }
