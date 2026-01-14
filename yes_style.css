@@ -12,8 +12,24 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #4ad882;
+    background-color: transparent;
+    color: #000;
     font-family: "Dancing Script", cursive;
+}
+
+/* Semi-transparent overlay to improve text contrast over background */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(255,255,255,0.45);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
 }
 
 .container {
@@ -21,12 +37,14 @@ body {
 }
 
 .header_text {
-    font-size: 3.5em;
-    color: black;
+    font-size: 8.5em;
+    color: white;
+    margin-bottom: 8px;
 }
 
 .gif_container img {
     width: 100%; 
     max-width: 500px; 
     height: auto; 
+    margin-top: 4px;
 }
